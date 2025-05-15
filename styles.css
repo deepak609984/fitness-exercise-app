@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background: linear-gradient(135deg, #ff6b6b, #556270);
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* Video Section */
+.video-section {
+    margin: 20px;
+}
+
+video, img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Workout Video Section */
+.workout-videos {
+    margin: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        background-color: #d1f7ff;
+    }
+    h1 {
+        font-size: 24px;
+        color: #0077b6;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #f0e68c;
+    }
+    h1 {
+        font-size: 26px;
+        color: #c70039;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        background-color: #f7cac9;
+    }
+    h1 {
+        font-size: 30px;
+        color: #d81b60;
+    }
+}
